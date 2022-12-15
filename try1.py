@@ -1,12 +1,7 @@
 # try1.py
 
-def divide(a,b):
-    return a/b
+url='http:\\www.naver.com/?page='+ str(1)
+url
 
-
-result = divide(5,0)
-print('결과:{0}'.format(result))
-
-
-print('전체 코드 실행 종료')
-
+import sys
+print('welcome to','python',sep='~', end='!', file=sys.stderr)
